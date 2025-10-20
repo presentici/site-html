@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Garcia Loris</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="ocean">
+    <div class="fish fish1">🐠</div>
+    <div class="fish fish2">🐟</div>
+    <div class="fish fish3">🐡</div>
+    <div class="fish fish4">🐬</div>
+
+    <div class="bubble b1"></div>
+    <div class="bubble b2"></div>
+    <div class="bubble b3"></div>
+    <div class="bubble b4"></div>
+    <div class="bubble b5"></div>
+
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+  </div>
+
+  <div class="page-wrapper">
+    <div class="cv">
+
+      <aside class="sidebar">
+        <div class="photo">
+          <img src="images/portfolio.jpg" alt="Garcia Loris">
+        </div>
+        <h1>Garcia Loris</h1>
+
+        <div class="section">
+          <h3>Contact</h3>
+          <ul class="contact-list">
+            <li>Bordeaux, Le Bouscat</li>
+            <li><a href="mailto:loris.garcia@epitech.eu">loris.garcia@epitech.eu</a></li>
+            <li><a href="https://github.com/presentici" target="_blank"><i class="fab fa-github" style="font-size: 15px; color: blue;"></i></a></li>
+            <li><a href="https://www.instagram.com/_loris.grc/" target="_blank"><i class="fab fa-instagram" style="font-size: 15px; color: blue;"></i></a></li>
+            <li>07 45 10 87 09</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>Compétences</h3>
+          <div class="skills-list">
+            <div class="skill">
+              <span>HTML / CSS</span>
+              <span>90%</span>
+              <div class="skill-bar"><i style="width:90%"></i></div>
+            </div>
+            <div class="skill">
+              <span>Python</span>
+              <span>50%</span>
+              <div class="skill-bar"><i style="width:50%"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Langues</h3>
+          <ul class="lang-list">
+            <li>Français</li>
+            <li>Anglais (B2)</li>
+          </ul>
+        </div>
+      </aside>
+
+      <main class="main">
+
+        <section class="card">
+          <h3 class="accordion">À propos de moi</h3>
+          <div class="panel">
+            <p>Je m'appelle Loris Garcia et je suis étudiant en informatique à Epitech Bordeaux, passionné par le développement web et les nouvelles technologies. J’aime résoudre des problèmes complexes et apprendre de nouvelles compétences chaque jour.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <h3 class="accordion">Mes projets</h3>
+          <div class="panel">
+            <ul>
+              <li><strong>Portfolio personnel :</strong> Site web interactif présentant mes projets et compétences.</li>
+              <li><strong>Mini-jeu Python :</strong> Développement d’un jeu simple pour apprendre la programmation orientée objet.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card">
+          <h3 class="accordion">Expériences</h3>
+          <div class="panel">
+            <ul>
+              <li><strong>Stage chez MC3 — 2023 :</strong> Participation à la distribution informatique et à la logistique. Découverte du fonctionnement d’une entreprise.</li>
+              <li><strong>Projets scolaires :</strong> Réalisation de sites web et de mini-jeux en Python.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card">
+          <h3 class="accordion">Certifications & Intérêts</h3>
+          <div class="panel">
+            <ul>
+              <li>Titulaire du Bac général 2024 et du Brevet des collèges, ainsi qu'une certification d'anglais faite en Nouvelle-Zélande en mars 2024.</li>
+              <li>Passionné par le sport, les voyages et les jeux vidéo.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card">
+          <h3 class="accordion">Compétences supplémentaires</h3>
+          <div class="panel">
+            <p>Mes compétences informatiques principales sont en Python, mais je suis aussi une personne méthodique, réfléchie et dotée d’un bon esprit d’équipe.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <h3 class="accordion">Difficultés</h3>
+          <div class="panel">
+            <p>Je suis encore en apprentissage sur Python, HTML et CSS. Je débute en JavaScript, mais je progresse grâce à mes projets à Epitech.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <h3 class="accordion">Contact</h3>
+          <div class="panel">
+            <form>
+              <div>
+                <label>Prénom</label>
+                <input id="name" required>
+              </div>
+              <div>
+                <label>Nom</label>
+                <input id="lname" required>
+              </div>
+              <div>
+                <label>Email</label>
+                <input type="email" required>
+              </div>
+              <div>
+                <label>Âge</label>
+                <input type="number" min="3" max="99" required>
+              </div>
+              <div>
+                <label>Téléphone</label>
+                <input required>
+              </div>
+              <div>
+                <label>Sexe :</label>
+                <label><input type="radio" name="sex"> Homme</label>
+                <label><input type="radio" name="sex"> Femme</label>
+              </div>
+              <div>
+                <label>Couleur de cheveux</label>
+                <input type="color">
+              </div>
+              <div>
+                <label>Date</label>
+                <input type="date">
+              </div>
+              <div>
+                <label>Technologie</label>
+                <select>
+                  <option>PHP</option>
+                  <option>SQL</option>
+                </select>
+              </div>
+              <div>
+                <label>Questions ?</label>
+                <input type="text">
+              </div>
+              <div>
+                <input type="submit" value="Envoyer">
+              </div>
+            </form>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <script>
+    const accordions = document.querySelectorAll(".accordion");
+    accordions.forEach(acc => {
+      acc.addEventListener("click", function() {
+        this.classList.toggle("active");
+        const panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
