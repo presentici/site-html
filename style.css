@@ -31,7 +31,7 @@ body {
   z-index: 1;
 }
 
-.cv {
+.portfolio {
   display: grid;
   grid-template-columns: 320px 1fr;
   gap: 28px;
@@ -151,10 +151,11 @@ h1 { font-size:22px; margin:6px 0; text-align:center; }
 }
 
 @media(max-width:880px){
-  .cv{grid-template-columns:1fr;}
+  .portfolio{grid-template-columns:1fr;}
   .sidebar{display:flex; gap:16px; align-items:center;}
   .photo{width:88px; height:88px;}
   h1, .title{ text-align:left; }
 }
+
 
 
